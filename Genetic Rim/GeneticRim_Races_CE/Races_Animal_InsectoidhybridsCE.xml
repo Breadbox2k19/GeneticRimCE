@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Genetic Rim</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+	
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/ThingDef[defName="GR_Bearscarab"]</xpath>
+				<value>
+				<li Class="CombatExtended.RacePropertiesExtensionCE">
+					<bodyShape>QuadrupedLow</bodyShape>
+				</li>
+				</value>
+			</li>
+						
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="GR_Bearscarab"]/statBases</xpath>
+				<value>
+				<MeleeDodgeChance>0.12</MeleeDodgeChance>
+				<MeleeCritChance>0.2</MeleeCritChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Bearscarab"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>1</ArmorRating_Blunt>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Bearscarab"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>1</ArmorRating_Sharp>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Bearscarab"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Cut</li></capacities>
+							<power>15</power>
+							<cooldownTime>1.9</cooldownTime>
+							<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+							<armorPenetrationSharp>0.4</armorPenetrationSharp>
+							<armorPenetrationBlunt>8</armorPenetrationBlunt>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities><li>Blunt</li></capacities>
+							<power>5</power>
+							<cooldownTime>1.65</cooldownTime>
+							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>8</armorPenetrationBlunt>
+						</li>
+					</tools>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/ThingDef[defName="GR_Boombeetle"]</xpath>
+				<value>
+				<li Class="CombatExtended.RacePropertiesExtensionCE">
+					<bodyShape>QuadrupedLow</bodyShape>
+				</li>
+				</value>
+			</li>
+						
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="GR_Boombeetle"]/statBases</xpath>
+				<value>
+				<AimingAccuracy>0.65</AimingAccuracy>
+			                <ShootingAccuracyPawn>0.65</ShootingAccuracyPawn> 
+				<MeleeDodgeChance>0.12</MeleeDodgeChance>
+				<MeleeCritChance>0.15</MeleeCritChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Boombeetle"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>1</ArmorRating_Blunt>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Boombeetle"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>1</ArmorRating_Sharp>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Boombeetle"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Cut</li></capacities>
+							<power>6</power>
+							<cooldownTime>1.5</cooldownTime>
+							<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+							<armorPenetrationSharp>0.4</armorPenetrationSharp>
+							<armorPenetrationBlunt>8</armorPenetrationBlunt>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities><li>Blunt</li></capacities>
+							<power>3</power>
+							<cooldownTime>1.65</cooldownTime>
+							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>8</armorPenetrationBlunt>
+						</li>
+					</tools>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/ThingDef[defName="GR_Chickenspider"]</xpath>
+				<value>
+				<li Class="CombatExtended.RacePropertiesExtensionCE">
+					<bodyShape>QuadrupedLow</bodyShape>
+				</li>
+				</value>
+			</li>
+						
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="GR_Chickenspider"]/statBases</xpath>
+				<value>
+				<MeleeDodgeChance>0.15</MeleeDodgeChance>
+				<MeleeCritChance>0.5</MeleeCritChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Chickenspider"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>1</ArmorRating_Blunt>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Chickenspider"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>1</ArmorRating_Sharp>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Chickenspider"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Cut</li></capacities>
+							<power>8</power>
+							<cooldownTime>1.9</cooldownTime>
+							<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+							<armorPenetrationSharp>0.4</armorPenetrationSharp>
+							<armorPenetrationBlunt>8</armorPenetrationBlunt>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities><li>Blunt</li></capacities>
+							<power>3</power>
+							<cooldownTime>1.65</cooldownTime>
+							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>8</armorPenetrationBlunt>
+						</li>
+					</tools>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/ThingDef[defName="GR_Muffalopede"]</xpath>
+				<value>
+				<li Class="CombatExtended.RacePropertiesExtensionCE">
+					<bodyShape>QuadrupedLow</bodyShape>
+				</li>
+				</value>
+			</li>
+						
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="GR_Muffalopede"]/statBases</xpath>
+				<value>
+				<MeleeDodgeChance>0.07</MeleeDodgeChance>
+				<MeleeCritChance>0.4</MeleeCritChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Muffalopede"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>3</ArmorRating_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Muffalopede"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Muffalopede"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Cut</li></capacities>
+							<power>15</power>
+							<cooldownTime>1.65</cooldownTime>
+							<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+							<armorPenetrationSharp>0.4</armorPenetrationSharp>
+							<armorPenetrationBlunt>8</armorPenetrationBlunt>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities><li>Blunt</li></capacities>
+							<power>3</power>
+							<cooldownTime>1.65</cooldownTime>
+							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>8</armorPenetrationBlunt>
+						</li>
+					</tools>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/ThingDef[defName="GR_Thrumbospider"]</xpath>
+				<value>
+				<li Class="CombatExtended.RacePropertiesExtensionCE">
+					<bodyShape>Quadruped</bodyShape>
+				</li>
+				</value>
+			</li>
+						
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="GR_Thrumbospider"]/statBases</xpath>
+				<value>
+				<MeleeDodgeChance>0.09</MeleeDodgeChance>
+				<MeleeCritChance>0.8</MeleeCritChance>
+				<MeleeParryChance>0.3</MeleeParryChance>
+				</value>
+			</li>
+
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Thrumbospider"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>36</ArmorRating_Blunt>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Thrumbospider"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>15</ArmorRating_Sharp>
+				</value>
+			</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="GR_Thrumbospider"]/race/baseHealthScale</xpath>
+					<value>
+						<baseHealthScale>8</baseHealthScale>
+					</value>
+				</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Thrumbospider"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Cut</li></capacities>
+							<power>58</power>
+							<cooldownTime>2.2</cooldownTime>
+							<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+							<armorPenetrationSharp>24</armorPenetrationSharp>
+							<armorPenetrationBlunt>40</armorPenetrationBlunt>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities><li>Blunt</li></capacities>
+							<power>32</power>
+							<cooldownTime>1.85</cooldownTime>
+							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>30</armorPenetrationBlunt>
+						</li>
+					</tools>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/ThingDef[defName="GR_Wolfscarab"]</xpath>
+				<value>
+				<li Class="CombatExtended.RacePropertiesExtensionCE">
+					<bodyShape>Quadruped</bodyShape>
+				</li>
+				</value>
+			</li>
+						
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="GR_Wolfscarab"]/statBases</xpath>
+				<value>
+				<MeleeDodgeChance>0.12</MeleeDodgeChance>
+				<MeleeCritChance>0.4</MeleeCritChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Wolfscarab"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>1</ArmorRating_Blunt>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Wolfscarab"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>1</ArmorRating_Sharp>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Wolfscarab"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Cut</li></capacities>
+							<power>10</power>
+							<cooldownTime>0.8</cooldownTime>
+							<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+							<armorPenetrationSharp>0.4</armorPenetrationSharp>
+							<armorPenetrationBlunt>8</armorPenetrationBlunt>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities><li>Blunt</li></capacities>
+							<power>14</power>
+							<cooldownTime>1.95</cooldownTime>
+							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>8</armorPenetrationBlunt>
+						</li>
+					</tools>
+				</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/ThingDef[defName="GR_Spidercat"]</xpath>
+				<value>
+				<li Class="CombatExtended.RacePropertiesExtensionCE">
+					<bodyShape>Quadruped</bodyShape>
+				</li>
+				</value>
+			</li>
+						
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="GR_Spidercat"]/statBases</xpath>
+				<value>
+				<AimingAccuracy>0.75</AimingAccuracy>
+			                <ShootingAccuracyPawn>0.75</ShootingAccuracyPawn> 
+				<MeleeDodgeChance>0.12</MeleeDodgeChance>
+				<MeleeCritChance>0.4</MeleeCritChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
+				</value>
+			</li>
+
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Spidercat"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>1</ArmorRating_Blunt>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Spidercat"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>1</ArmorRating_Sharp>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="GR_Spidercat"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Bite</li></capacities>
+							<power>10</power>
+							<cooldownTime>0.8</cooldownTime>
+							<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+							<armorPenetrationSharp>0.4</armorPenetrationSharp>
+							<armorPenetrationBlunt>8</armorPenetrationBlunt>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities><li>Blunt</li></capacities>
+							<power>14</power>
+							<cooldownTime>1.95</cooldownTime>
+							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+							<armorPenetrationBlunt>8</armorPenetrationBlunt>
+						</li>
+					</tools>
+				</value>
+			</li>
+		</operations>
+		</match>
+	</Operation>
+</Patch>
