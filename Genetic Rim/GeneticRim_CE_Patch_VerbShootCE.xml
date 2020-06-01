@@ -99,11 +99,11 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>GR_PlasmaBurst</defaultProjectile>
-											<warmupTime>2.7</warmupTime>
+											<warmupTime>3</warmupTime>
 											<burstShotCount>1</burstShotCount>
 											<ticksBetweenBurstShots>1</ticksBetweenBurstShots>
 											<minRange>4</minRange>
-											<range>45</range>
+											<range>46</range>
 											<soundCast>Pawn_Mech_Centipede_Call</soundCast>
 											<muzzleFlashScale>2</muzzleFlashScale>
 											<commonality>1</commonality>
@@ -271,7 +271,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 										<hasStandardCommand>true</hasStandardCommand>
 										<defaultProjectile>GR_Warhead</defaultProjectile>
-										<warmupTime>4.8</warmupTime>
+										<warmupTime>5.25</warmupTime>
 										<burstShotCount>1</burstShotCount>
 										<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 										<minRange>1</minRange>
