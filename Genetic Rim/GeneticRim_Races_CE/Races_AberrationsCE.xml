@@ -21,7 +21,7 @@
 				<xpath>/Defs/ThingDef[defName="GR_AberrantFleshbeast"]/statBases</xpath>
 				<value>
 				<MeleeDodgeChance>0.01</MeleeDodgeChance>
-				<MeleeCritChance>0.18</MeleeCritChance>
+				<MeleeCritChance>0.21</MeleeCritChance>
 				</value>
 			</li>
 			
@@ -31,11 +31,11 @@
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<capacities><li>Bite</li></capacities>
-							<power>15</power>
-							<cooldownTime>2.4</cooldownTime>
+							<power>18</power>
+							<cooldownTime>2.56</cooldownTime>
 							<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
-							<armorPenetrationSharp>0.25</armorPenetrationSharp>
-							<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.28</armorPenetrationSharp>
+							<armorPenetrationBlunt>1</armorPenetrationBlunt>
 						</li>
 					</tools>
 				</value>

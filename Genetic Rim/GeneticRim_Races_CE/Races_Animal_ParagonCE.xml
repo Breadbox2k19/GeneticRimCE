@@ -76,7 +76,7 @@
 						<li Class="CombatExtended.ToolCE">
 							<capacities><li>Bite</li></capacities>
 							<power>46</power>
-							<cooldownTime>1.9</cooldownTime>
+							<cooldownTime>1.95</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -86,8 +86,8 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationSharp>6</armorPenetrationSharp>
-							<armorPenetrationBlunt>18</armorPenetrationBlunt>
+							<armorPenetrationSharp>5</armorPenetrationSharp>
+							<armorPenetrationBlunt>20</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
@@ -133,13 +133,13 @@
 							<power>18</power>
 							<cooldownTime>1.25</cooldownTime>
 							<linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
-							<armorPenetrationSharp>1.5</armorPenetrationSharp>
+							<armorPenetrationSharp>1.75</armorPenetrationSharp>
 							<armorPenetrationBlunt>5</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
 							<capacities><li>Blunt</li></capacities>
-							<power>16</power>
+							<power>15</power>
 							<cooldownTime>1.85</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>5</armorPenetrationBlunt>
@@ -183,7 +183,7 @@
 							<label>head</label>
 							<capacities><li>Blunt</li></capacities>
 							<power>20</power>
-							<cooldownTime>2.3</cooldownTime>
+							<cooldownTime>3.17</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>6</armorPenetrationBlunt>
 						</li>
@@ -387,7 +387,7 @@
 						<li Class="CombatExtended.ToolCE">
 							<label>claws</label>
 							<capacities><li>Cut</li></capacities>
-							<power>15</power>
+							<power>16</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
 							<surpriseAttack>
@@ -444,7 +444,7 @@
 				<MeleeDodgeChance>0.06</MeleeDodgeChance>
 				<MeleeCritChance>0.75</MeleeCritChance>
 				<MeleeParryChance>0.4</MeleeParryChance>
-				<ArmorRating_Blunt>2</ArmorRating_Blunt>
+				<ArmorRating_Blunt>3</ArmorRating_Blunt>
 				<ArmorRating_Sharp>1</ArmorRating_Sharp>
 				</value>
 			</li>
@@ -452,7 +452,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="GR_AlphaRhinoceros"]/statBases/MoveSpeed</xpath>
 				<value>
-					<MoveSpeed>4.5</MoveSpeed>
+					<MoveSpeed>4.6</MoveSpeed>
 				</value>
 			</li>
 			
@@ -488,7 +488,7 @@
 							<label>head</label>
 							<capacities><li>Blunt</li></capacities>
 							<power>24</power>
-							<cooldownTime>2</cooldownTime>
+							<cooldownTime>3</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>20</armorPenetrationBlunt>
 						</li>
@@ -516,7 +516,7 @@
 				<xpath>/Defs/ThingDef[defName="GR_AlphaWolfTimber"]/statBases</xpath>
 				<value>
 				<MeleeDodgeChance>0.45</MeleeDodgeChance>
-				<MeleeCritChance>0.28</MeleeCritChance>
+				<MeleeCritChance>0.27</MeleeCritChance>
 				<MeleeParryChance>0.05</MeleeParryChance>
 				</value>
 			</li>
@@ -539,8 +539,8 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationSharp>0.3</armorPenetrationSharp>
-							<armorPenetrationBlunt>0.3</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.25</armorPenetrationSharp>
+							<armorPenetrationBlunt>0.4</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
@@ -556,8 +556,8 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationSharp>0.3</armorPenetrationSharp>
-							<armorPenetrationBlunt>0.3</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.25</armorPenetrationSharp>
+							<armorPenetrationBlunt>0.4</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities><li>Bite</li></capacities>
@@ -604,17 +604,17 @@
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
 							<capacities><li>Blunt</li></capacities>
-							<power>2</power>
+							<power>1</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>0.2</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities><li>BiteBlunt</li></capacities>
-							<power>4</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>3</power>
+							<cooldownTime>1</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>0.3</armorPenetrationBlunt>
+							<armorPenetrationBlunt>0.25</armorPenetrationBlunt>
 						</li>
 					</tools>
 				</value>
@@ -755,33 +755,33 @@
 							<label>left claw</label>
 							<capacities><li>GR_PlagueBite</li></capacities>
 							<power>3</power>
-							<cooldownTime>1.3</cooldownTime>
+							<cooldownTime>1.1</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-							<armorPenetrationSharp>0.2</armorPenetrationSharp>
+							<armorPenetrationSharp>0.15</armorPenetrationSharp>
 							<armorPenetrationBlunt>0.1</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
 							<capacities><li>GR_PlagueBite</li></capacities>
 							<power>3</power>
-							<cooldownTime>1.3</cooldownTime>
+							<cooldownTime>1.1</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-							<armorPenetrationSharp>0.2</armorPenetrationSharp>
+							<armorPenetrationSharp>0.15</armorPenetrationSharp>
 							<armorPenetrationBlunt>0.1</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities><li>GR_PlagueBite</li></capacities>
 							<power>5</power>
-							<cooldownTime>1.45</cooldownTime>
+							<cooldownTime>1.4</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-							<armorPenetrationSharp>0.36</armorPenetrationSharp>
+							<armorPenetrationSharp>0.34</armorPenetrationSharp>
 							<armorPenetrationBlunt>0.2</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
 							<capacities><li>Blunt</li></capacities>
 							<power>1</power>
-							<cooldownTime>1.65</cooldownTime>
+							<cooldownTime>1.85</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>0.2</armorPenetrationBlunt>
 						</li>
@@ -826,19 +826,19 @@
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<capacities><li>Bite</li></capacities>
-							<power>17</power>
-							<cooldownTime>3</cooldownTime>
+							<power>18</power>
+							<cooldownTime>3.6</cooldownTime>
 							<linkedBodyPartsGroup>TurtleBeakAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationSharp>0.48</armorPenetrationSharp>
-							<armorPenetrationBlunt>1</armorPenetrationBlunt>
+							<armorPenetrationBlunt>2</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
 							<capacities><li>Blunt</li></capacities>
 							<power>12</power>
-							<cooldownTime>2.87</cooldownTime>
+							<cooldownTime>3.6</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>0.25</armorPenetrationBlunt>
+							<armorPenetrationBlunt>2</armorPenetrationBlunt>
 						</li>
 					</tools>
 				</value>

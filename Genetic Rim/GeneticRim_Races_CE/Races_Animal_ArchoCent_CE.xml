@@ -32,13 +32,13 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="GR_ArchotechCentipede"]/statBases/ArmorRating_Blunt</xpath>
 				<value>
-					<ArmorRating_Blunt>150</ArmorRating_Blunt>
+					<ArmorRating_Blunt>160</ArmorRating_Blunt>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="GR_ArchotechCentipede"]/statBases/ArmorRating_Sharp</xpath>
 				<value>
-					<ArmorRating_Sharp>36</ArmorRating_Sharp>
+					<ArmorRating_Sharp>40</ArmorRating_Sharp>
 				</value>
 			</li>
 			
