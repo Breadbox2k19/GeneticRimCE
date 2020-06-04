@@ -65,7 +65,7 @@
 						<damageAmountBase>20</damageAmountBase>
 						<speed>66</speed>
 						<armorPenetrationSharp>4</armorPenetrationSharp>
-						<armorPenetrationBlunt>10</armorPenetrationBlunt>
+						<armorPenetrationBlunt>18</armorPenetrationBlunt>
 					</projectile>
 				</value>
 			</li>
@@ -116,7 +116,7 @@
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
 						<damageDef>GR_ToxicExplosion</damageDef>
-						<damageAmountBase>24</damageAmountBase>
+						<damageAmountBase>25</damageAmountBase>
 						<speed>67</speed>
 						<armorPenetrationSharp>40</armorPenetrationSharp>
 						<armorPenetrationBlunt>40</armorPenetrationBlunt>
@@ -132,7 +132,7 @@
 						<damageDef>GR_HairballProjectileDamage</damageDef>
 						<damageAmountBase>5</damageAmountBase>
 						<speed>18</speed>
-						<armorPenetrationBlunt>0.3</armorPenetrationBlunt>
+						<armorPenetrationBlunt>0.4</armorPenetrationBlunt>
 					</projectile>
 				</value>
 			</li>
@@ -146,7 +146,7 @@
 						<damageDef>GR_GreatHairballProjectileDamage</damageDef>
 						<damageAmountBase>14</damageAmountBase>
 						<speed>14</speed>
-						<armorPenetrationBlunt>0.45</armorPenetrationBlunt>
+						<armorPenetrationBlunt>0.85</armorPenetrationBlunt>
 					</projectile>
 				</value>
 			</li>
@@ -200,7 +200,7 @@
 				<xpath>/Defs/ThingDef[defName="GR_PlasmaBurst"]/projectile</xpath>
 				<value>
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
-						<speed>25</speed>
+						<speed>27</speed>
 						<damageDef>Bomb</damageDef>
 						<damageAmountBase>40</damageAmountBase>
 			                                                <explosionRadius >4</explosionRadius >

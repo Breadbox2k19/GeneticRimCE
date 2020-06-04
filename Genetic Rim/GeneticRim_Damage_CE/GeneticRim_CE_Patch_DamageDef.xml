@@ -13,14 +13,14 @@
 					<li Class="PatchOperationReplace">
 					<xpath>/Defs/DamageDef[defName="GR_LightToxicBite"]/additionalHediffs/li[hediff="ToxicBuildup"]/severityPerDamageDealt</xpath>
 						<value>
-							<severityPerDamageDealt>0.005</severityPerDamageDealt>
+							<severityPerDamageDealt>0.006</severityPerDamageDealt>
 						</value>
 					</li>
 					
 					<li Class="PatchOperationReplace">
 					<xpath>/Defs/DamageDef[defName="GR_VeryToxicBite"]/additionalHediffs/li[hediff="ToxicBuildup"]/severityPerDamageDealt</xpath>
 						<value>
-							<severityPerDamageDealt>0.03</severityPerDamageDealt>
+							<severityPerDamageDealt>0.033</severityPerDamageDealt>
 						</value>
 					</li>
 
