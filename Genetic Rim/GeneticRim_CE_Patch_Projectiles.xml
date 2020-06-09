@@ -237,7 +237,7 @@
 			<explosionChanceToStartFire>0.25</explosionChanceToStartFire>
 			<explosionDamageFalloff>true</explosionDamageFalloff>
 			<explosionEffect>GiantExplosion</explosionEffect>
-			<flyOverhead>true</flyOverhead>
+			<flyOverhead>False</flyOverhead>
 			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 			<soundExplode>Explosion_GiantBomb</soundExplode>
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
