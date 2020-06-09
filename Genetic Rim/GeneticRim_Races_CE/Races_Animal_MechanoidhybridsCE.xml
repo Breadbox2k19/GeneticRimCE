@@ -31,13 +31,13 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="GR_Mechabear"]/statBases/ArmorRating_Blunt</xpath>
 				<value>
-					<ArmorRating_Blunt>30</ArmorRating_Blunt>
+					<ArmorRating_Blunt>32</ArmorRating_Blunt>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="GR_Mechabear"]/statBases/ArmorRating_Sharp</xpath>
 				<value>
-					<ArmorRating_Sharp>14</ArmorRating_Sharp>
+					<ArmorRating_Sharp>15</ArmorRating_Sharp>
 				</value>
 			</li>
 
@@ -208,7 +208,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="GR_Mechaspider"]/statBases/ArmorRating_Blunt</xpath>
 				<value>
-					<ArmorRating_Blunt>24</ArmorRating_Blunt>
+					<ArmorRating_Blunt>25</ArmorRating_Blunt>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -512,7 +512,7 @@
 		<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="GR_Mechathrumbo"]/statBases/ArmorRating_Blunt</xpath>
 				<value>
-					<ArmorRating_Blunt>45</ArmorRating_Blunt>
+					<ArmorRating_Blunt>48</ArmorRating_Blunt>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
