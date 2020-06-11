@@ -77,7 +77,7 @@
 						<flyOverhead>false</flyOverhead>
 						<damageDef>Flame</damageDef>
 						<damageAmountBase>13</damageAmountBase>
-						<speed>600</speed>
+						<speed>300</speed>
 			                                                <ai_IsIncendiary>true</ai_IsIncendiary>
 					</projectile>
 				</value>
@@ -90,7 +90,7 @@
 						<flyOverhead>false</flyOverhead>
 						<damageDef>Flame</damageDef>
 						<damageAmountBase>1500</damageAmountBase>
-						<speed>600</speed>
+						<speed>300</speed>
 			                                                 <ai_IsIncendiary>true</ai_IsIncendiary>
 					</projectile>
 				</value>
@@ -103,7 +103,7 @@
 						<flyOverhead>false</flyOverhead>
 						<damageDef>Stun</damageDef>
 						<damageAmountBase>20</damageAmountBase>
-						<speed>150</speed>
+						<speed>140</speed>
 						<armorPenetrationSharp>2.5</armorPenetrationSharp>
 						<armorPenetrationBlunt>3</armorPenetrationBlunt>
 					</projectile>
@@ -232,7 +232,7 @@
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<speed>56</speed>
 						<damageDef>Bomb</damageDef>
-						<damageAmountBase>200</damageAmountBase>
+						<damageAmountBase>250</damageAmountBase>
 						<explosionRadius>8.9</explosionRadius>
 			<explosionChanceToStartFire>0.25</explosionChanceToStartFire>
 			<explosionDamageFalloff>true</explosionDamageFalloff>
