@@ -57,13 +57,13 @@
 				<value>
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
-						<damageDef>Bomb</damageDef>
-						<damageAmountBase>15</damageAmountBase>
+						<damageDef>Stun</damageDef>
+						<damageAmountBase>12.5</damageAmountBase>
 						<speed>12</speed>
 						<secondaryDamage>
 							<li>
-							  <def>Stun</def>
-							  <amount>12.5</amount>
+							  <def>Bomb</def>
+							  <amount>15</amount>
 							</li>
 						</secondaryDamage>
 					</projectile>
